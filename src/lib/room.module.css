@@ -1,0 +1,35 @@
+.roomContainer {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.mainSection {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.mediaContent {
+  height: 100%;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.chatSidebar {
+  width: 300px;
+  border-left: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatContent {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+} 
